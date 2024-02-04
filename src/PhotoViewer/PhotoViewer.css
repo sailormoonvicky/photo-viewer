@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+ul li {
+    width: 200px;
+    list-style: none;
+    margin-right: 10px;
+}
+
+ul li img{
+    width: 194px;
+    height: 119.375px;
+    border-radius: 5%;
+}
+
+ul li button{
+    width: 200px;
+    height: 125.375px;
+    padding: 0;
+}
+ul li button:hover{
+    border: solid 3px #eb9e34;
+    border-radius: 5%;
+}
